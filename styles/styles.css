@@ -1,0 +1,39 @@
+
+
+#choice {
+    display: flex;
+    
+    
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+#rock {
+background-color: rgb(56, 47, 47);
+color: white;
+border-color: black;
+
+}
+#paper {
+    border-style: none;
+}
+
+#scissors {
+    border-style: dashed;
+    background-color: gray;
+}
+.btn {
+    display: flex;
+    font-size: 30px;
+    border: 0.4rem solid;
+    border-radius: 35px;
+    margin: 30px;
+    padding: 15px;
+}
+
+.green-glow {
+    border: 5px solid green;
+    box-shadow: 0 0 10px rgb(68, 116, 68)
+}
+
